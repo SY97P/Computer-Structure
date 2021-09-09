@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html  dir="ltr" lang="ko" xml:lang="ko">
+<head>
+    <title>강원대학교 스마트캠퍼스 e-루리</title>
+    <link rel="shortcut icon" href="http://eruri.kangwon.ac.kr/theme/image.php?theme=coursemosv2&amp;component=theme&amp;rev=1604707745&amp;image=favicon" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="moodle, 2020_2_4471029_2_U_75001: Cache Demonstrator : 실습 환경 및 도구 " />
+<script type="text/javascript">
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"http:\/\/eruri.kangwon.ac.kr","sesskey":"pbZzfDXCgc","loadingicon":"http:\/\/eruri.kangwon.ac.kr\/theme\/image.php?theme=coursemosv2&component=core&rev=1604707745&image=i%2Floading_small","themerev":"1604707745","slasharguments":0,"theme":"coursemosv2","jsrev":"1604707745","admin":"admin","svgicons":true};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''};if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else me.path=component+'/'+component+'.'+me.type};
+YUI_config = {"debug":false,"base":"http:\/\/eruri.kangwon.ac.kr\/lib\/yuilib\/3.17.2\/","comboBase":"http:\/\/eruri.kangwon.ac.kr\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"http:\/\/eruri.kangwon.ac.kr\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"http:\/\/eruri.kangwon.ac.kr\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"http:\/\/eruri.kangwon.ac.kr\/theme\/yui_combo.php?m\/1604707745\/","combine":true,"comboBase":"http:\/\/eruri.kangwon.ac.kr\/theme\/yui_combo.php?","ext":false,"root":"m\/1604707745\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-checknet":{"requires":["base-base","moodle-core-notification-alert","io-base"]},"moodle-core-dock":{"requires":["base","node","event-custom","event-mouseenter","event-resize","escape","moodle-core-dock-loader"]},"moodle-core-dock-loader":{"requires":["escape"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-formautosubmit":{"requires":["base","event-key"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-formchangechecker":{"requires":["base","event-focus"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core_availability-form":{"requires":["base","node","event","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-calendar-info":{"requires":["base","node","event-mouseenter","event-key","overlay","moodle-calendar-info-skin"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-course-toolboxes":{"requires":["node","base","event-key","node","io","moodle-course-coursebase","moodle-course-util"]},"moodle-course-modchooser":{"requires":["moodle-core-chooserdialogue","moodle-course-coursebase"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-form-passwordunmask":{"requires":["node","base"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-form-showadvanced":{"requires":["node","base","selector-css3"]},"moodle-core_message-messenger":{"requires":["escape","handlebars","io-base","moodle-core-notification-ajaxexception","moodle-core-notification-alert","moodle-core-notification-dialogue","moodle-core-notification-exception"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-question-qbankmanager":{"requires":["node","selector-css3"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_forum-subscriptiontoggle":{"requires":["base-base","io-base"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-util":{"requires":["node"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-repaginate":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-quizquestionbank":{"requires":["base","event","node","io","io-form","yui-later","moodle-question-qbankmanager","moodle-core-notification-dialogue"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-randomquestion":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-block_navigation-navigation":{"requires":["base","io-base","node","event-synthetic","event-delegate","json-parse"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_coursemosvimeo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_html-button":{"requires":["moodle-editor_atto-plugin","event-valuechange"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"http:\/\/eruri.kangwon.ac.kr\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"http:\/\/eruri.kangwon.ac.kr\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1604707745\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"http:\/\/eruri.kangwon.ac.kr\/lib\/javascript.php?rev=1604707745&jsfile=%2Frepository%2Ffilepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker"]}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+<link rel="stylesheet" type="text/css" href="http://eruri.kangwon.ac.kr/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css" /><script type="text/javascript" src="http://eruri.kangwon.ac.kr/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js&amp;rollup/1604707745/mcore-min.js"></script><script type="text/javascript" src="http://eruri.kangwon.ac.kr/lib/jquery/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="http://eruri.kangwon.ac.kr/lib/jquery/ui-1.11.4/jquery-ui.min.js"></script>
+<script type="text/javascript" src="http://eruri.kangwon.ac.kr/theme/coursemosv2/jquery/bootstrap.min.js"></script>
+<script type="text/javascript" src="http://eruri.kangwon.ac.kr/theme/coursemosv2/jquery/jquery.cookie.js"></script>
+<script type="text/javascript" src="http://eruri.kangwon.ac.kr/theme/coursemosv2/jquery/jquery.validate.min.js"></script>
+<script type="text/javascript" src="http://eruri.kangwon.ac.kr/theme/coursemosv2/jquery/jquery.validate.methods.js"></script>
+<script type="text/javascript" src="http://eruri.kangwon.ac.kr/theme/coursemosv2/jquery/jquery.tableHeadFixer.js"></script>
+<script type="text/javascript" src="http://eruri.kangwon.ac.kr/theme/coursemosv2/jquery/bootstrap-datepicker.js"></script>
+<script type="text/javascript" src="http://eruri.kangwon.ac.kr/theme/coursemosv2/jquery/jquery.sortable.min.js"></script>
+<script type="text/javascript" src="http://eruri.kangwon.ac.kr/theme/coursemosv2/jquery/moment.min.js"></script>
+<script type="text/javascript" src="http://eruri.kangwon.ac.kr/theme/coursemosv2/jquery/fullcalendar.js"></script>
+<script type="text/javascript" src="http://eruri.kangwon.ac.kr/theme/coursemosv2/jquery/gcal.js"></script>
+<script type="text/javascript" src="http://eruri.kangwon.ac.kr/theme/coursemosv2/jquery/jquery.filedownload.js"></script>
+<script type="text/javascript" src="http://eruri.kangwon.ac.kr/theme/coursemosv2/jquery/timer.jquery.js"></script>
+<script type="text/javascript" src="http://eruri.kangwon.ac.kr/theme/coursemosv2/jquery/jquery.validate.ko.js"></script>
+<script type="text/javascript" src="http://eruri.kangwon.ac.kr/theme/coursemosv2/jquery/bootstrap-datepicker.kr.js"></script>
+<script type="text/javascript" src="http://eruri.kangwon.ac.kr/theme/coursemosv2/jquery/fullcalendar/ko.js"></script>
+<script type="text/javascript" src="http://eruri.kangwon.ac.kr/theme/coursemosv2/jquery/jquery.mCustomScrollbar.concat.min.js"></script>
+<script type="text/javascript" src="http://eruri.kangwon.ac.kr/theme/coursemosv2/jquery/jquery.headroom.min.js"></script>
+<script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="http://eruri.kangwon.ac.kr/theme/styles.php?theme=coursemosv2&amp;rev=1604707745&amp;type=all" />
+<script type="text/javascript" src="http://eruri.kangwon.ac.kr/lib/javascript.php?rev=1604707745&amp;jsfile=%2Flib%2Fjavascript-static.js"></script>
+<script type="text/javascript" src="http://eruri.kangwon.ac.kr/theme/javascript.php?theme=coursemosv2&amp;rev=1604707745&amp;type=head"></script>
+
+<script type="text/javascript" src="https://s3.ap-northeast-2.amazonaws.com/code.coursemos.co.kr/flexiblepage.js?v=0.04"></script>    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, target-densitydpi=medium-dpi, minimal-ui" />
+    <script type="text/javascript">
+		theme_coursemosv2.lang = 'ko';
+    </script>
+</head>
+
+<body  id="page-mod-url-view" class="format-ubsweeks  path-mod path-mod-url safari dir-ltr lang-ko yui-skin-sam yui3-skin-sam eruri-kangwon-ac-kr pagelayout-incourse course-52425 context-744503 cmid-598392 category-61 coursemos-layout-course page-xs has-region-side-pre used-region-side-pre has-region-side-post empty-region-side-post side-pre-only">
+	<div class="skiplinks"><a class="skip" href="#maincontent">주 내용으로 가기</a></div>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+	<div id="page" class="">
+		<div id="page-header">
+			<nav class="navbar navbar-default navbar-fixed-top headroom">
+	<div class="container-fluid">
+		<div class="navbar-brand">
+			<a href="http://eruri.kangwon.ac.kr" class="logo"><span class="sr-only">CyberCampus</span></a>
+		</div>
+		
+		<div class="usermenu">
+		<ul class="nav nav-pills" role="tablist"><li class="user_department hidden-xs">박세영</li><li class="user-info-menu"><a class="user-info-popover" tabindex="0" role="button" data-toggle="popover" data-placement="bottom"><img src="http://eruri.kangwon.ac.kr/theme/image.php?theme=coursemosv2&amp;component=core&amp;rev=1604707745&amp;image=u%2Ff2" alt="박세영 사진" class="userpicture" /></a><div class="user-info-box popover-box"><div class="dropdown dropdown-lang"><a id="user-info-lang" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="http://eruri.kangwon.ac.kr/theme/image.php?theme=coursemosv2&amp;component=theme_coursemosv2&amp;rev=1604707745&amp;image=flag%2Fko" alt="" />&nbsp;&nbsp;한국어 (ko) <span class="caret"></span> </a><ul class="dropdown-menu" aria-labelledby="user-info-lang"><li><a href="http://eruri.kangwon.ac.kr/mod/url/view.php?id=598392&amp;lang=en" title="English (en)" class="a-lang" data-lang="en"><img src="http://eruri.kangwon.ac.kr/theme/image.php?theme=coursemosv2&amp;component=theme_coursemosv2&amp;rev=1604707745&amp;image=flag%2Fen" alt="en" class="lang_flag" /> English (en)</a></li><li><a href="http://eruri.kangwon.ac.kr/mod/url/view.php?id=598392&amp;lang=ja" title="日本語 (ja)" class="a-lang" data-lang="ja"><img src="http://eruri.kangwon.ac.kr/theme/image.php?theme=coursemosv2&amp;component=theme_coursemosv2&amp;rev=1604707745&amp;image=flag%2Fja" alt="ja" class="lang_flag" /> 日本語 (ja)</a></li><li><a href="http://eruri.kangwon.ac.kr/mod/url/view.php?id=598392&amp;lang=ko" title="한국어 (ko)" class="a-lang" data-lang="ko"><img src="http://eruri.kangwon.ac.kr/theme/image.php?theme=coursemosv2&amp;component=theme_coursemosv2&amp;rev=1604707745&amp;image=flag%2Fko" alt="ko" class="lang_flag" /> 한국어 (ko)</a></li><li><a href="http://eruri.kangwon.ac.kr/mod/url/view.php?id=598392&amp;lang=zh_cn" title="简体中文 (zh_cn)" class="a-lang" data-lang="zh_cn"><img src="http://eruri.kangwon.ac.kr/theme/image.php?theme=coursemosv2&amp;component=theme_coursemosv2&amp;rev=1604707745&amp;image=flag%2Fzh_cn" alt="zh_cn" class="lang_flag" /> 简体中文 (zh_cn)</a></li></ul></div><div class="user-info-picture"><img src="http://eruri.kangwon.ac.kr/theme/image.php?theme=coursemosv2&amp;component=core&amp;rev=1604707745&amp;image=u%2Ff1" alt="박세영 사진" class="userpicture" /><h4>박세영</h4><p class="department">컴퓨터정보통신공학전공</p></div><ul class="user-info-submenu clearfix"><li class="items"><a href="http://eruri.kangwon.ac.kr/user/edit.php?id=29267">개인정보 수정</a></li><li class="items"><a href="http://eruri.kangwon.ac.kr/login/logout.php?sesskey=pbZzfDXCgc">로그아웃</a></li></ul><ul class="user-info-shortcut"><li><a href="http://eruri.kangwon.ac.kr/user/files.php">파일 관리</a></li></ul></div></li><li class="user-courses"><a class="user-courses-popover icon-a" tabindex="0" role="button" data-toggle="popover" data-placement="bottom"><div class="icon icon-my"></div></a><div class="user-courses-box popover-box"><div class="popover-header">진행중인 강좌 (0)</div><ul class="my-course-lists"><li class="nocourses">Loading...</li></ul><div class="popover-footer"><a href="http://eruri.kangwon.ac.kr">MY COURSES</a></div></div></li><li class="user-notification"><a class="icon-a user-noti-popover" tabindex="0" role="button" data-toggle="popover" data-placement="bottom"><div class="icon icon-noti"></div></a><div class="user-noti-box popover-box"><div class="popover-header"><span>전체 알림</span> <img src="http://eruri.kangwon.ac.kr/theme/image.php?theme=coursemosv2&amp;component=theme_coursemosv2&amp;rev=1604707745&amp;image=layout%2Fpopover-icon" alt="" class="gear" /></div><div class="user-noti-lists"><div class="nomessage">Loading...</div></div><div class="popover-footer"><a href="http://eruri.kangwon.ac.kr/local/ubnotification/">모두 보기</a></div></div></li><li class="user-message"><a class="icon-a user-message-popover" tabindex="0" role="button" data-toggle="popover" data-placement="bottom"><div class="icon icon-msg"></div></a><div class="user-message-box popover-box"><div class="popover-header">메시지 <img src="http://eruri.kangwon.ac.kr/theme/image.php?theme=coursemosv2&amp;component=theme_coursemosv2&amp;rev=1604707745&amp;image=layout%2Fpopover-icon" alt="" class="gear" /></div><div class="user-message-lists"><div class="nomessage">Loading...</div></div><div class="popover-footer"><a href="#" class="btn-allread-message">모두 읽음으로 표시</a><span class="popover-bar">&nbsp;</span><a href="http://eruri.kangwon.ac.kr/local/ubmessage/">전체보기</a></div></div></li><li class="user-product"><a class="user-menu-product icon-a" tabindex="0" role="button" data-toggle="popover"><div class="icon icon-menu"></div></a><div class="hide menu-product"><div class="menu-product-itl"><h5>CTL 안내 <a href="#" target="_blank"><img src="http://eruri.kangwon.ac.kr/theme/image.php?theme=coursemosv2&amp;component=theme_coursemosv2&amp;rev=1604707745&amp;image=layout%2Fitl_home" alt="" /></a></h5><div class="row"><div class="col-xs-5"><a href="#">교수지원</a></div><div class="col-xs-7"><a href="#">학습지원</a></div><div class="col-xs-5"><a href="#">이러닝지원</a></div><div class="col-xs-7"><a href="#">미디어지원</a></div></div></div><div class="menu-product-product"><div class="container-fluid"><div class="row"><div class="col-xs-4"><a href="http://home.kangwon.ac.kr" target="_blank"><span class="mpp mpp-1"></span>강원대학교</a></div><div class="col-xs-4"><a href="http://portal.kangwon.ac.kr" target="_blank"><span class="mpp mpp-2"></span>KNU포털</a></div><div class="col-xs-4"><a href="http://itl.kangwon.ac.kr" target="_blank"><span class="mpp mpp-3"></span>교수학습개발원</a></div></div></div></div><div class="menu-product-family"><h5>학교 서비스</h5><div class="container-fluid"><div class="row"><div class="col-xs-5"><a href="http://home.kangwon.ac.kr/" target="_blank">대학홈페이지</a></div><div class="col-xs-7"><a href="https://library.kangwon.ac.kr/https://library.kangwon.ac.kr/" target="_blank">도서관</a></div><div class="col-xs-5"><a href="http://uicf.kangwon.ac.kr/" target="_blank">산학협력단</a></div><div class="col-xs-7"><a href="http://oiaknu.kangwon.ac.kr/main" target="_blank">국제교류과</a></div><div class="col-xs-5"><a href="http://www.knuch.com/" target="_blank">총학생회</a></div><div class="col-xs-7"><a href="http://knucounsel.kangwon.ac.kr/" target="_blank">학생생활상담소</a></div><div class="col-xs-5"><a href="http://job.kangwon.ac.kr/kwjobs/user/main/" target="_blank">취업정보센터</a></div></div></div></div></div></li><li class="active user-login user-logout hidden-xs"><a href="http://eruri.kangwon.ac.kr/login/logout.php?sesskey=pbZzfDXCgc" class="btn btn-person">로그아웃</a></li></ul>		</div>
+		
+		<div class="coursename"><h1><a href="http://eruri.kangwon.ac.kr/course/view.php?id=52425">컴퓨터구조 (2)</a></h1></div>	</div>
+</nav>		</div>
+		
+		<div id="page-lnb">
+			<ul class="left-menus">
+	<li class=""><a href="http://eruri.kangwon.ac.kr" class="left-menu-link left-menu-link-mypage" title="My Page"  data-toggle="tooltip" data-placement="right"><h5 class="">My Page</h5></a><ul><li class=""><a href="http://eruri.kangwon.ac.kr" title="">Dashboard</a></li><li class=""><a href="http://eruri.kangwon.ac.kr/user/files.php" title="">파일 관리</a></li><li class=""><a href="http://eruri.kangwon.ac.kr/local/ubion/user/grade.php" title="">성적 확인</a></li><li class=""><a href="http://eruri.kangwon.ac.kr/mod/ubboard/my.php" title="">진행강좌 공지</a></li><li class=""><a href="http://eruri.kangwon.ac.kr/user/edit.php?id=29267" title="">개인정보 수정</a></li></ul></li><li class=""><a href="http://eruri.kangwon.ac.kr" class="left-menu-link left-menu-link-mycourses" title="교과 과정"  data-toggle="tooltip" data-placement="right"><h5 class="">교과 과정</h5></a><ul><li class=""><a href="http://eruri.kangwon.ac.kr/local/ubion/user/" title="">나의 강좌</a></li><li class=""><a href="http://eruri.kangwon.ac.kr/local/ubassistant/" title="">조교/청강생 신청</a></li></ul></li><li class=""><a href="http://eruri.kangwon.ac.kr/local/ubassistant/irregular.php" class="left-menu-link left-menu-link-irrcourse" title="비교과 과정"  data-toggle="tooltip" data-placement="right"><h5 class="nosubmenu">비교과 과정</h5></a></li><li class=""><a href="http://eruri.kangwon.ac.kr/local/ubonline/" class="left-menu-link left-menu-link-online" title="KNU-MOOC"  data-toggle="tooltip" data-placement="right"><h5 class="">KNU-MOOC</h5></a><ul><li class=""><a href="http://eruri.kangwon.ac.kr/local/ubonline/index.php" title="">강좌 목록</a></li><li class=""><a href="http://eruri.kangwon.ac.kr/local/ubonline/open_course_list.php" title="">강연·특강 목록</a></li><li class=""><a href="http://eruri.kangwon.ac.kr/local/ubonline/my.php" title="">나의 강좌</a></li><li class=""><a href="http://eruri.kangwon.ac.kr/local/ubonline/intro.php" title="">과정개설방법</a></li></ul></li><li class=""><a href="http://eruri.kangwon.ac.kr/local/ubeclass/my.php" class="left-menu-link left-menu-link-eclass" title="자율강좌"  data-toggle="tooltip" data-placement="right"><h5 class="nosubmenu">자율강좌</h5></a></li><li class=""><a href="http://eruri.kangwon.ac.kr/local/ubmessage/" class="left-menu-link left-menu-link-message" title="메시지"  data-toggle="tooltip" data-placement="right"><h5 class="nosubmenu">메시지</h5></a></li><li class=""><a href="http://eruri.kangwon.ac.kr/mod/ubboard/view.php?id=1" class="left-menu-link left-menu-link-guide" title="이용안내"  data-toggle="tooltip" data-placement="right"><h5 class="">이용안내</h5></a><ul><li class=""><a href="http://eruri.kangwon.ac.kr/mod/ubboard/view.php?id=1" title="">공지사항</a></li><li class=""><a href="http://eruri.kangwon.ac.kr/mod/ubboard/view.php?id=4" title="">자료실</a></li><li class=""><a href="/local/ubion/manual/" title="">매뉴얼</a></li><div class="itl_info"><h5>문의 안내</h5><div class="itl_desc"><p class="tell">033-250-7161</p><p class="name">교수학습개발원</p></div></div></ul></li></ul>		</div>
+		<div id="page-mask">
+						<div id="page-container" class="">
+				<div id="page-submenu">
+	<div id="coursemos-course-menu">
+		<ul class="course-menus">
+			<li>
+	<div class="block block-coursemos block-coursehome "  data-name="coursehome">
+		<div class="header">
+			<div class="block_action">
+				<img class="block-hider-hide" alt="블록 숨기기" src="http://eruri.kangwon.ac.kr/theme/image.php?theme=coursemosv2&amp;component=core&amp;rev=1604707745&amp;image=t%2Fswitch_minus" title="블록 숨기기" />
+				<img class="block-hider-show" alt="블록 보이기" src="http://eruri.kangwon.ac.kr/theme/image.php?theme=coursemosv2&amp;component=core&amp;rev=1604707745&amp;image=t%2Fswitch_plus" title="블록 보이기" />
+			</div>
+			<h2><a href="http://eruri.kangwon.ac.kr/course/view.php?id=52425">강의실 홈</a></h2>
+		</div>
+		<div class="content">
+						<ul class="topmenu">
+				<li class="expand"><a href="#" title="강의정보" class="" >강의정보 <span class="caret"></span></a><ul><li><a href="http://eruri.kangwon.ac.kr/user/users.php?id=52425" title="참여자목록" class="" >참여자목록</a></li></ul></li><li class="expand"><a href="#" title="성적/출석관리" class="" >성적/출석관리 <span class="caret"></span></a><ul><li><a href="http://eruri.kangwon.ac.kr/report/ubcompletion/progress.php?id=52425" title="온라인출석부" class="" >온라인출석부</a></li><li><a href="http://eruri.kangwon.ac.kr/local/ubattendance/offline_attendance_book.php?id=52425" title="오프라인출석부" class="" >오프라인출석부</a></li><li><a href="http://eruri.kangwon.ac.kr/grade/report/user/index.php?id=52425" title="성적부" class="" >성적부</a></li></ul></li><li class=""><a href="#" title="수강생 알림" class="" >수강생 알림 <span class="caret"></span></a><ul><li><a href="http://eruri.kangwon.ac.kr/local/ubmessage/send.php?id=52425" title="메시지 보내기" class="" >메시지 보내기</a></li></ul></li><li class=""><a href="#" title="기타 관리" class="" >기타 관리 <span class="caret"></span></a><ul><li><a href="http://eruri.kangwon.ac.kr/local/ubcommunication/group/user_group.php?id=52425" title="팀원" class="" >팀원</a></li></ul></li>			</ul>
+			
+					</div>
+	</div>
+</li>
+	<li>
+		<div class="block block-coursemos block-quick-mod "  data-name="quick-mod">
+			<div class="header">
+				<div class="block_action">
+					<img class="block-hider-hide" alt="블록 숨기기" src="http://eruri.kangwon.ac.kr/theme/image.php?theme=coursemosv2&amp;component=core&amp;rev=1604707745&amp;image=t%2Fswitch_minus" title="블록 숨기기" />
+					<img class="block-hider-show" alt="블록 보이기" src="http://eruri.kangwon.ac.kr/theme/image.php?theme=coursemosv2&amp;component=core&amp;rev=1604707745&amp;image=t%2Fswitch_plus" title="블록 보이기" />
+				</div>
+				<h2>학습활동</h2>
+			</div>
+			<div class="content">
+				<ul class="add_activities">
+					<li><img src="http://eruri.kangwon.ac.kr/theme/image.php?theme=coursemosv2&amp;component=ubfile&amp;rev=1604707745&amp;image=icon" alt="" class="moduleicon" /> <a href="http://eruri.kangwon.ac.kr/mod/ubfile/index.php?id=52425">파일</a></li><li><img src="http://eruri.kangwon.ac.kr/theme/image.php?theme=coursemosv2&amp;component=vod&amp;rev=1604707745&amp;image=icon" alt="" class="moduleicon" /> <a href="http://eruri.kangwon.ac.kr/mod/vod/index.php?id=52425">동영상</a></li><li><img src="http://eruri.kangwon.ac.kr/theme/image.php?theme=coursemosv2&amp;component=assign&amp;rev=1604707745&amp;image=icon" alt="" class="moduleicon" /> <a href="http://eruri.kangwon.ac.kr/mod/assign/index.php?id=52425">과제</a></li><li><img src="http://eruri.kangwon.ac.kr/theme/image.php?theme=coursemosv2&amp;component=ubboard&amp;rev=1604707745&amp;image=icon" alt="" class="moduleicon" /> <a href="http://eruri.kangwon.ac.kr/mod/ubboard/index.php?id=52425">게시판</a></li><li class="extra_modules"><img src="http://eruri.kangwon.ac.kr/theme/image.php?theme=coursemosv2&amp;component=url&amp;rev=1604707745&amp;image=icon" alt="" class="moduleicon" /> <a href="http://eruri.kangwon.ac.kr/mod/url/index.php?id=52425">URL링크</a></li><li class="extra_modules"><img src="http://eruri.kangwon.ac.kr/theme/image.php?theme=coursemosv2&amp;component=zoom&amp;rev=1604707745&amp;image=icon" alt="" class="moduleicon" /> <a href="http://eruri.kangwon.ac.kr/mod/zoom/index.php?id=52425">화상강의</a></li>				</ul>
+							</div>
+		</div>
+	</li>
+			</ul>
+		<aside id="block-region-side-pre" class="block-region" data-blockregion="side-pre" data-droptarget="1"><a href="#sb-1" class="skip-block">고급 설정 생략</a><div id="inst5" class="block_settings  block" role="navigation" data-block="settings" data-instanceid="5" aria-labelledby="instance-5-header"><div class="header"><div class="title"><div class="block_action"></div><h2 id="instance-5-header">고급 설정</h2></div></div><div class="content"><div id="settingsnav" class="box block_tree_box"><ul class="block_tree list"><li class="type_course collapsed contains_branch" aria-expanded="false"><p class="tree_item branch root_node"><span tabindex="0">고급 강좌 관리</span></p><ul><li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="http://eruri.kangwon.ac.kr/grade/report/index.php?id=52425"><img class="smallicon navicon" alt="" src="http://eruri.kangwon.ac.kr/theme/image.php?theme=coursemosv2&amp;amp;component=core&amp;amp;rev=1604707745&amp;amp;image=i%2Fgrades" />성적</a></p></li></ul></li></ul></div></div></div><span id="sb-1" class="skip-block-to"></span></aside>        <aside id="block-region-side-post" class="block-region" data-blockregion="side-post" data-droptarget="1"></aside>	</div>
+	
+</div>
+				
+				
+				<div id="page-content" class="clearfix">
+					<div id="page-content-wrap">
+						<div class="page-content-navigation"><ol class=breadcrumb><li class="breadcrumb-home"><a href="http://eruri.kangwon.ac.kr"><img src="http://eruri.kangwon.ac.kr/theme/image.php?theme=coursemosv2&amp;component=theme_coursemosv2&amp;rev=1604707745&amp;image=layout%2Fcourse-home" alt="HOME" /></a></li><li><a title="컴퓨터구조" href="http://eruri.kangwon.ac.kr/course/view.php?id=52425">컴퓨터구조</a></li><li><a href="http://eruri.kangwon.ac.kr/mod/url/view.php?id=598392" id="action_link5fb36962e4b0d6" class="btn btn-default">Cache Demonstrator : 실습 환경 및 도구 </a></li></ol></div>						<div id="region-main">
+							<div role="main"><span id="maincontent"></span><h2>Cache Demonstrator : 실습 환경 및 도구 </h2><div class="urlworkaround">URL을 열려면 <a href="http://www.ecs.umass.edu/ece/koren/architecture/Cache/tutorial.html" onclick="this.target='_blank';">http://www.ecs.umass.edu/ece/koren/architecture/Cache/tutorial.html</a> 를 클릭</div></div>				            
+			            </div>
+		            </div>
+				</div>
+								<div class="coursemos-course-menu-expand">
+					<button type="button" class="nobtn btn-course-menu btn-course-menu-open"></button>
+					<button type="button" class="nobtn btn-course-menu btn-course-menu-close"></button>
+				</div>
+							</div>
+		</div>
+		
+		<div id="page-footer">
+			<ul class="footer-menus pull-left">
+		<li><a href="http://eruri.kangwon.ac.kr/html/person.html" onclick="window.open(this.href,'copyright','width=800,height=510,left='+(screen.availWidth/2-300)+',top='+(screen.availHeight/2-375)+''); return false;" class="private_1">개인정보처리방침</a></li>
+</ul>
+<!-- 
+<div class="helpdesk">
+	<a href="#" class="nobtn">도움말</a>
+</div>
+ -->
+<div class="address">
+	강원도 춘천시 강원대학길 1 강원대학교 <span class="tell">Tel : 033.250.7161 </span> <br/>
+	<span class="copyright">
+			</span>
+</div>
+<div id="back-top">
+	<a href="#top"><span></span></a>
+</div>
+<div id="ajax_loading_submit">&nbsp;</div>
+<div id="ajax_loading_container">
+	<div id="ajax_loading_submit_img">
+		<img src="http://eruri.kangwon.ac.kr/theme/image.php?theme=coursemosv2&amp;component=theme_coursemosv2&amp;rev=1604707745&amp;image=ajax-loader" alt="loading..." /> Loading...
+	</div>
+	<div id="ajax_loading_message">
+		<p class="save_msg">데이터를 저장하고 있습니다. 잠시만 기다려주십시오.</p>
+		<p class="refresh_msg">장시간 페이지 로딩 중이면 새로고침(F5) 해주시기 바랍니다.</p>
+	</div>
+</div>	
+		</div>
+	</div>
+	
+<script type="text/javascript" src="https://s3.ap-northeast-2.amazonaws.com/code.coursemos.co.kr/annote_supporter.js?v=0.01"></script>
+<script type="text/javascript" src="http://la.kangwon.ac.kr/activeChecker/lms"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-38985636-28', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!--
+<script>
+        (function() {
+            var s = document.getElementsByTagName('script')[0]
+            , p = document.createElement('script');                
+            p.async = 'async';
+            p.src = 'https://s3.ap-northeast-2.amazonaws.com/code.coursemos.co.kr/CSMSAnalytics/analytics-v1.js';
+            s.parentNode.insertBefore(p, s);
+
+        })();
+</script>
+--><script type="text/javascript">
+//<![CDATA[
+var require = {
+    baseUrl : 'http://eruri.kangwon.ac.kr/lib/requirejs.php?file=%2F1604707745%2F',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+
+    paths: {
+        jquery: 'http://eruri.kangwon.ac.kr/lib/javascript.php?file=%2F1604707745%2Flib/jquery/jquery-1.11.2.min.js',
+        jqueryui: 'http://eruri.kangwon.ac.kr/lib/javascript.php?file=%2F1604707745%2Flib/jquery/ui-1.11.4/jquery-ui.min.js',
+        jqueryprivate: 'http://eruri.kangwon.ac.kr/lib/javascript.php?file=%2F1604707745%2Flib/requirejs/jquery-private.js'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script type="text/javascript" src="http://eruri.kangwon.ac.kr/lib/javascript.php?rev=1604707745&amp;jsfile=%2Flib%2Frequirejs%2Frequire.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+require(['core/first'], function() {
+;
+require(["core/log"], function(amd) { amd.setConfig({"level":"warn"}); });
+});
+//]]>
+</script>
+<script type="text/javascript" src="http://eruri.kangwon.ac.kr/theme/javascript.php?theme=coursemosv2&amp;rev=1604707745&amp;type=footer"></script>
+<script type="text/javascript">
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"\ucd5c\uc885 \uc218\uc815 \uc77c\uc2dc","name":"\uc81c\ubaa9","error":"\uc624\ub958","info":"\uc815\ubcf4","morehelp":"\ub3c4\uc6c0\uae00 \ub354","loadinghelp":"\ub85c\ub529 \uc911 ...","cancel":"\ucde8\uc18c","yes":"\uc608","confirm":"\ud655\uc778","no":"\uc544\ub2c8\uc624","areyousure":"\uacc4\uc18d\ud558\uc2dc\uaca0\uc2b5\ub2c8\uae4c?","closebuttontitle":"\ub2eb\uae30","unknownerror":"\uc54c \uc218 \uc5c6\ub294 \uc624\ub958"},"repository":{"type":"\uc720\ud615","size":"\ud06c\uae30","invalidjson":"\uc798\ubabb\ub41c JSON \ubb38\uc790\uc5f4","nofilesattached":"\ucca8\ubd80\ubb3c \uc5c6\uc74c","filepicker":"\ud30c\uc77c \uc120\ud0dd\ub3c4\uad6c","logout":"\ub098\uac00\uae30","nofilesavailable":"\uc4f8 \uc218 \uc788\ub294 \ud30c\uc77c\uc774 \uc5c6\uc74c","norepositoriesavailable":"\uc8c4\uc1a1\ud569\ub2c8\ub2e4. \ud604\uc7ac \uc800\uc7a5\uc18c\uc911\uc5d0\uc11c \ud544\uc694\ud55c \ud3ec\ub9f7\uc73c\ub85c \ud30c\uc77c\uc744 \ubcf4\ub0b4\uc8fc\ub294 \uc800\uc7a5\uc18c\uac00 \uc5c6\uc2b5\ub2c8\ub2e4.","fileexistsdialogheader":"\ud30c\uc77c\uc774 \uc874\uc7ac\ud569\ub2c8\ub2e4.","fileexistsdialog_editor":"\uac19\uc740 \uc774\ub984\uc758 \ud30c\uc77c\uc774 \ud3b8\uc9d1\ud558\uace0 \uc788\ub294 \ubb38\uc7a5\uc5d0 \uc774\ubbf8 \ucca8\ubd80\ub418\uc5c8\uc2b5\ub2c8\ub2e4.","fileexistsdialog_filemanager":"\uac19\uc740 \uc774\ub984\uc758 \ud30c\uc77c\uc774 \uc774\ubbf8 \ucca8\ubd80\ub418\uc5b4 \uc788\uc2b5\ub2c8\ub2e4.","renameto":"\"{$a}\"\ub85c \uc774\ub984 \ubcc0\uacbd","referencesexist":"\uc774\ud30c\uc77c\uc744 \uc18c\uc2a4\ub85c \uc0ac\uc6a9\ud558\ub294 {$a} \ubcc4\uce6d \/ \ubc14\ub85c\uac00\uae30 \ud30c\uc77c\uc774 \uc788\uc2b5\ub2c8\ub2e4.","select":"\uc120\ud0dd"},"admin":{"confirmation":"\ud655\uc778"}};
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+YUI().use('node', function(Y) {
+M.util.load_flowplayer();
+setTimeout("fix_column_widths()", 20);
+function legacy_activity_onclick_handler_1(e) { e.halt(); window.open('http://eruri.kangwon.ac.kr/mod/url/view.php?id=598392&redirect=1'); return false; };
+function legacy_activity_onclick_handler_2(e) { e.halt(); window.open('http://eruri.kangwon.ac.kr/mod/vod/viewer.php?id=603679', '', 'width=960,height=720,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes'); return false; };
+function legacy_activity_onclick_handler_3(e) { e.halt(); window.open('http://eruri.kangwon.ac.kr/mod/vod/viewer.php?id=603682', '', 'width=1005,height=755,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes'); return false; };
+Y.use("moodle-block_navigation-navigation",function() {M.block_navigation.init_add_tree({"id":"5","instance":"5","candock":false});
+});
+M.util.help_popups.setup(Y);
+Y.use("moodle-core-popuphelp",function() {M.core.init_popuphelp();
+});
+M.util.init_block_hider(Y, {"id":"inst5","title":"\uace0\uae09 \uc124\uc815","preference":"block5hidden","tooltipVisible":"\uace0\uae09 \uc124\uc815 \ube14\ub85d \uc228\uae30\uae30","tooltipHidden":"\uace0\uae09 \uc124\uc815 \ube14\ub85d \ubcf4\uc774\uae30"});
+ M.util.js_pending('random5fb36962e4b0d7'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random5fb36962e4b0d7'); });
+Y.on('click', legacy_activity_onclick_handler_1, "#action_link5fb36962e4b0d6", null);
+
+});
+//]]>
+</script>
+</body>
+</html>
